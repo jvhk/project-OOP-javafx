@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPaneAddServico" prefHeight="400.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLControllerAdicionaServico">
+   <children>
+      <TextField fx:id="fieldAddServicoTipo" layoutX="83.0" layoutY="83.0" prefHeight="34.0" prefWidth="346.0" promptText="Tipo do serviço" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0" />
+      <TextField fx:id="fieldAddServicoDescricao" layoutX="83.0" layoutY="130.0" prefHeight="34.0" prefWidth="346.0" promptText="Descrição do que deve ser feito" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0" />
+      <TextField fx:id="fieldAddServicoPreco" layoutX="83.0" layoutY="183.0" prefHeight="34.0" prefWidth="346.0" promptText="Preço do serviço" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0" />
+      <TextField fx:id="fieldAddServicoProfissionalResponsavel" layoutX="83.0" layoutY="236.0" prefHeight="34.0" prefWidth="346.0" promptText="Profissional responsável pelo serviço" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0" />
+      <TextField fx:id="fieldAddServicoCodigo" layoutX="83.0" layoutY="283.0" prefHeight="34.0" prefWidth="346.0" promptText="Código do serviço" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0" />
+      <Button fx:id="btnSalvarCadastroServico" layoutX="241.0" layoutY="343.0" mnemonicParsing="false" onAction="#adicionaServico" text="Salvar" />
+      <Label layoutX="184.0" layoutY="25.0" prefHeight="34.0" prefWidth="160.0" text="Adicionar Serviço">
+         <font>
+            <Font name="Alef Regular" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

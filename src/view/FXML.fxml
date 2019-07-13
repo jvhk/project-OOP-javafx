@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPaneMenuPrincipal" prefHeight="492.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLControllerMain">
+   <children>
+      <VBox fx:id="vBoxMenuPrincipal" prefHeight="492.0" prefWidth="251.0">
+         <children>
+            <Button fx:id="btnCadastrarCliente" mnemonicParsing="false" onAction="#loadCadastroCliente" prefHeight="82.0" prefWidth="400.0" text="Cadastrar Cliente" />
+            <Button fx:id="btnCadastrarServico" mnemonicParsing="false" onAction="#loadCadastroServico" prefHeight="82.0" prefWidth="400.0" text="Cadastrar Serviço" />
+            <Button fx:id="btnCadastrarAnimal" mnemonicParsing="false" onAction="#loadCadastroAnimal" prefHeight="82.0" prefWidth="400.0" text="Cadastrar Animal" />
+            <Button fx:id="btnRemoverCliente" mnemonicParsing="false" onAction="#loadRemoverCliente" prefHeight="82.0" prefWidth="400.0" text="Remover Cliente" />
+            <Button fx:id="btnRemoverServico" mnemonicParsing="false" onAction="#loadRemoverServico" prefHeight="82.0" prefWidth="400.0" text="Remover Serviço" />
+            <Button fx:id="btnRemoverAnimal" mnemonicParsing="false" onAction="#loadRemoverAnimal" prefHeight="84.0" prefWidth="251.0" text="Remover Animal" />
+         </children>
+      </VBox>
+      <AnchorPane fx:id="pnlBack" layoutX="251.0" prefHeight="400.0" prefWidth="527.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="492.0" fitWidth="629.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/Ready-Made-Pet-Business-Logo-Retro-8A.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
